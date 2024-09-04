@@ -18,8 +18,9 @@ import org.junit.runners.Parameterized;
       //  tags = "not @Positive"         //To run other than positive scenario
        //  tags = "@simpleLogin or @dataDriven" //OR case it will which feature file satisfy either tag condition
       //  tags = "@simpleLogin and @dataDriven"  //And case it will which feature file satisfy both tag condition
-    //tags = "@Hooks"                            M
+    //tags = "@Hooks"                            
         tags = "@BackgroundExample"                 //Background is similar to Hooks but it can be done in feature file itself and we can give only pre condition
+        // tags = "@TaggedHooks"                    // Combining hooks with tgs is called tagged hooks
 )
 public class RunnerClass {
     //It should combine feature file and step definition
